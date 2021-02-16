@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>calculando o troco</h2>
+    <button onclick="comprar()">comprar produtor</button>
+    <script>
+        function comprar(){
+            var nome = prompt("que produto vc esta comprando")
+            var valor = prompt(`quanto custa ${nome} que vc esta comprando`)
+            var pagou = prompt(`qual foi o valor que vc deu para pagar ${nome}`) 
+            var valor = Number.parseInt(valor)
+            var pagou = Number.parseInt(pagou)
+            var sub =  valor-pagou
+            alert(`vc comprou ${nome} que custa R$${valor}. deu R$${pagou} em dinheiro e vai receber em R$${sub} de troco. volte sempre`)
+        }
+    </script>
+</body>
+</html>
