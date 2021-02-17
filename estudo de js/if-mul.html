@@ -46,14 +46,17 @@
         n2 = parseInt(n2.value)
         n3 = parseInt(n3.value)
         d = (n1+n2+n3)/3
-        if(d >=7){
-            r.innerHTML = `vc foi aprovado com nota de ${d}`
+        if(d >=6){
+            r.innerHTML = `vc foi aprovado com nota de<strong> ${d}</strong>`
+         }else if(d >= 4 && d < 6){
+            r.innerHTML = `vc esta em recuperaçao sua nota foi <strong>${d}</strong>`
         }else{
-            r.innerHTML = `vc foi reprovador com nota de ${d}` 
+            r.innerHTML = `vc foi reprovador com nota de <strong>${d}</strong>` 
+            }
         }
 
         
-    }
+    
 
     </script>
 </body>
