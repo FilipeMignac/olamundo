@@ -24,3 +24,7 @@ lista de tarefas :
 - [x] crifs
 
 [teste link](https://github.com/FilipeMignac/olamundo/blob/main/README.md)
+
+num | nome | nota | ola
+---|---|---|---
+1 | gustado | 85,3 | ed
