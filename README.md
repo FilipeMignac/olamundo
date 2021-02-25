@@ -25,7 +25,7 @@ lista de tarefas :
 
 [teste link](https://github.com/FilipeMignac/olamundo/blob/main/README.md)
 
-
+`document.getElementById()`
 
 num | nome | nota | ola
 ---|---|---|---
